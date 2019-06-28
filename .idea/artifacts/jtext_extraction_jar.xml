@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="jtext-extraction:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jtext_extraction_jar</output-path>
+    <root id="archive" name="jtext-extraction.jar">
+      <element id="module-output" name="jtext-extraction" />
+    </root>
+  </artifact>
+</component>
