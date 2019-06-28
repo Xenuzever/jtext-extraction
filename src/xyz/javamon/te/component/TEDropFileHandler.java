@@ -18,10 +18,7 @@ public class TEDropFileHandler extends TransferHandler {
         if (!support.isDrop()) {
             return false;
         }
-        if (!support.isDataFlavorSupported(DataFlavor.javaFileListFlavor)) {
-            return false;
-        }
-        return true;
+        return support.isDataFlavorSupported(DataFlavor.javaFileListFlavor);
     }
 
     @Override

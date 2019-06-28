@@ -21,7 +21,6 @@ public class TEFrame extends JFrame {
         setVisible(true);
     }
 
-
     public JTextArea getTextArea() {
         if (textArea == null) {
             textArea = new JTextArea();

@@ -7,7 +7,7 @@ import java.nio.file.FileVisitor;
 import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
 
-public class TEFileVisitor<T extends JTextArea> implements FileVisitor<Path> {
+public class TEFileVisitor implements FileVisitor<Path> {
 
     private String[] regexes;
 
