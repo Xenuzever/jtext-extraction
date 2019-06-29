@@ -101,4 +101,4 @@ fabric.properties
 *.tar.gz
 *.rar
 
-!docs/jar/*.jar
+!docs/download/*
