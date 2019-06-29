@@ -3,9 +3,7 @@ package xyz.javamon.te.component;
 import javax.swing.*;
 
 public class TEFrame extends JFrame {
-
-    private JTextField textField;
-
+    
     private JTextArea textArea;
 
     public TEFrame() {
